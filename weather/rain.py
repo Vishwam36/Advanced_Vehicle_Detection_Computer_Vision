@@ -41,6 +41,4 @@ if __name__ == "__main__":
     # Adding rain
     rainy = add_rain(img)
     cv.imshow('Rainy Image',rainy)
-    
-    cv.imwrite('op.png', rainy)
     cv.waitKey(0)
