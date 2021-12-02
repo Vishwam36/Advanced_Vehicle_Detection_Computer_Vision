@@ -249,8 +249,11 @@ def from_static_image(img):
     return img
 
 if __name__ == '__main__':
+    # To run on video run realTime()
     realTime()
 
+    # To run for an image run from_static_image() function
+    
     # image_file = r'dataset\images\ft2.jpg'
     # img = cv2.imread(image_file)
     # ip = from_static_image(img)
